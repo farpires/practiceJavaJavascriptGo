@@ -1,0 +1,17 @@
+txt.txt
+go/bin
+go/pkg
+Java/Ejercicio/lib
+Java/ConsumirApi/src/main/resources
+
+
+*.swp
+nbactions.xml
+nbproject
+.settings
+.project
+.classpath
+*.class
+target/
+.idea
+*.iml
