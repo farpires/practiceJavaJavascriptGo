@@ -18,11 +18,11 @@ func main() {
 	fmt.Print("please enter the value in C ")
 	fmt.Scanln(&C)
 
-	genAnagrams(A, B, C)
+	resultCompare(A, B, C)
 
 }
 
-func genAnagrams(p1 int, p2 int, p3 int) {
+func resultCompare(p1 int, p2 int, p3 int) {
 	var sum int = 0
 	sum = p1 + p2
 	if sum == p3 {
