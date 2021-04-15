@@ -23,6 +23,11 @@ con el programa ¿?.
 Realizar un programa que permita ingresar una cantidad determinada de días y en función
 de ello convierta los días en segundos.
 
+#### Ejercicio Nro. 4:
+
+Realizar un programa que permita introducir tres valores y determine si la suma de los dos
+primeros es igual al tercer valor ingresado.
+
 #### Ejercicio Nro. 6
 
 Realizar un programa que permita ingresar por teclado un valor que represente un importe en pesos y a eso convertirlo a diferentes monedas según la cotización actual de esa moneda.
