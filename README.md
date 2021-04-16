@@ -43,3 +43,7 @@ El programa debería calcular
 Valor en dólares(USD): =
 Valor en Euros(EUR):=
 Valor en Reales (BRL):=
+
+#### Ejercicio Nro. 7:
+
+Dado los lados de un rectángulo (Base y Altura) determinar la superficie de los mismos.
