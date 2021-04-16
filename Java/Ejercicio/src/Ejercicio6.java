@@ -6,13 +6,13 @@ public class Ejercicio6 {
     public static void main(String[] args) throws Exception {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter the value in pesos that you want to convert");
-        int pesoArg = keyboard.nextInt();
-        int dolar = 140;
-        int euro = 120;
-        int real = 12;
-        int valueDolar = pesoArg / dolar;
-        int valueEuro = pesoArg / euro;
-        int valueReal = pesoArg / real;
+        double pesoArg = keyboard.nextInt();
+        double dolar = 140;
+        double euro = 120;
+        double real = 12;
+        double valueDolar = pesoArg / dolar;
+        double valueEuro = pesoArg / euro;
+        double valueReal = pesoArg / real;
 
         System.out.println("THE VALUE OF " + pesoArg + " PEOS ITS CORRESPONDING VALUE IN");
         System.out.println("DOLAR = " + valueDolar + "\n");
