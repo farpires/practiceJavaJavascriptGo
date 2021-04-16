@@ -47,3 +47,14 @@ Valor en Reales (BRL):=
 #### Ejercicio Nro. 7:
 
 Dado los lados de un rectángulo (Base y Altura) determinar la superficie de los mismos.
+
+#### Ejercicio Nro. 8:
+
+Realizar un programa que permita el Ingreso de un número (X); luego calcular y mostrar
+sobre ese número las siguientes operaciones.
+
+-
+-
+- Mostrar el cuadrado de X
+  Mostrar la Raíz cuadrada de X
+  Mostrar el resultado de la siguiente operación: x 3
