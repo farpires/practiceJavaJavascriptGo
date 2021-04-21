@@ -4,30 +4,30 @@ import java.util.Scanner;
 
 public class Ejercicio9 extends FuncionesExtras {
 
-    public static void exercise10_1(String textString) {
+    public static void exercise9_1(String textString) {
         int longTxt = textString.length();
         System.out.println("\n 1_ the length of the string is  " + longTxt + "\n");
 
     }
 
-    public static void exercise10_2(String textString) {
+    public static void exercise9_2(String textString) {
         char firstCharacter = textString.charAt(0);
         System.out.println("\n  2_ the first character of the string is " + firstCharacter + "\n");
     }
 
-    public static void exercise10_3(String textString) {
+    public static void exercise9_3(String textString) {
         char latestCharacter = textString.charAt(textString.length() - 1);
         System.out.println("\n  3_ the latest character of the string is " + latestCharacter + "\n");
     }
 
-    public static void exercise10_4(String textString) {
+    public static void exercise9_4(String textString) {
         System.out.println("\n 4_ print each character in the string -------------------- \n");
         for (int i = 0; i < textString.length(); i++) {
             System.out.println("character in position " + i + " is = " + textString.charAt(i) + "\n");
         }
     }
 
-    public static void exercise10_5(String textString) {
+    public static void exercise9_5(String textString) {
 
         System.out.println("\n 5_determine how many times letters A and E are repeated \n");
         int contCharacterA = 0;
@@ -52,7 +52,7 @@ public class Ejercicio9 extends FuncionesExtras {
         }
     }
 
-    public static void exercise10_6(String textString) {
+    public static void exercise9_6(String textString) {
         StringBuilder reverseString = new StringBuilder(textString);
         for (int j = 0; j < textString.length(); j++) {
             reverseString.setCharAt(textString.length() - (j + 1), textString.charAt(j));
@@ -61,7 +61,7 @@ public class Ejercicio9 extends FuncionesExtras {
         System.out.println(reverseString);
     }
 
-    public static void exercise10_7(String textString) {
+    public static void exercise9_7(String textString) {
         boolean flag = false;
         int contFound = 0;
 
@@ -79,7 +79,7 @@ public class Ejercicio9 extends FuncionesExtras {
         }
     }
 
-    public static void exercise10_8(String textString) {
+    public static void exercise9_8(String textString) {
         char allVowelsm[] = { 'a', 'e', 'i', 'o', 'u' };
         char allVowelsM[] = { 'A', 'E', 'I', 'O', 'U' };
         int contVowells = 0;
@@ -96,7 +96,7 @@ public class Ejercicio9 extends FuncionesExtras {
         }
     }
 
-    public static void exercise10_9(String textString) {
+    public static void exercise9_9(String textString) {
         int contB = 0;
         int contC = 0;
         int contA = 0;
@@ -128,7 +128,7 @@ public class Ejercicio9 extends FuncionesExtras {
         System.out.println("\n the total score is = " + acumTotal + " \n");
     }
 
-    public static void exercise10_10(String textString) {
+    public static void exercise9_10(String textString) {
         FuncionesExtras p1 = new FuncionesExtras();
         boolean flagG = false;
         boolean flagO = false;
@@ -166,7 +166,7 @@ public class Ejercicio9 extends FuncionesExtras {
 
     }
 
-    public static void exercise10_11(String textString) {
+    public static void exercise9_11(String textString) {
 
         boolean flagStringC = false;
         boolean flagStringD = false;
@@ -198,17 +198,17 @@ public class Ejercicio9 extends FuncionesExtras {
         System.out.println("please enter the text string  =  ");
         String textString = keyboard.nextLine();
 
-        exercise10_1(textString);
-        exercise10_2(textString);
-        exercise10_3(textString);
-        exercise10_4(textString);
-        exercise10_5(textString);
-        exercise10_6(textString);
-        exercise10_7(textString);
-        exercise10_8(textString);
-        exercise10_9(textString);
-        exercise10_10(textString);
-        exercise10_11(textString);
+        exercise9_1(textString);
+        exercise9_2(textString);
+        exercise9_3(textString);
+        exercise9_4(textString);
+        exercise9_5(textString);
+        exercise9_6(textString);
+        exercise9_7(textString);
+        exercise9_8(textString);
+        exercise9_9(textString);
+        exercise9_10(textString);
+        exercise9_11(textString);
 
         keyboard.close();
     }
