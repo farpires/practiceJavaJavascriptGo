@@ -2,7 +2,7 @@ package Ejercicio.src;
 
 import java.util.Scanner;
 
-public class Ejercicio9 extends FuncionesExtras {
+public class Ejercicio9Super extends FuncionesExtras {
 
     public static void exercise9_1(String textString) {
         int longTxt = textString.length();

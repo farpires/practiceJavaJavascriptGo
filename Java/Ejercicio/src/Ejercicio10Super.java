@@ -2,7 +2,7 @@ package Ejercicio.src;
 
 import java.util.Scanner;
 
-public class Ejercicio10 {
+public class Ejercicio10Super {
 
     public static void exercise10_1(String stringTxtOne, String stringTxtTwo) {
 
